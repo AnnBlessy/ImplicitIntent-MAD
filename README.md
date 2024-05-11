@@ -1,11 +1,9 @@
 # Ex.No:3a Develop program to create a text field and a button “Navigate”. When you enter “www.gmail.com” and press navigate button it should open google page using Implicit Intents.
 
 ## AIM:
-
 To create a navigate button using Implicit Intent to display the gmail page using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Latest Version Android Studio
 
 ## ALGORITHM:
@@ -91,7 +89,6 @@ Registeration Number : 212222040008
 package com.example.implicitintent;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -100,18 +97,15 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         EditText e1;
         Button btn;
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         btn = findViewById(R.id.button);
         e1 = findViewById(R.id.editText);
-
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -125,8 +119,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-
-![WhatsApp Image 2024-03-11 at 09 47 03_43874b10](https://github.com/AnnBlessy/ImplicitIntent-MAD/assets/119477835/31062a8d-c01d-4d95-a795-7e42a49a0e64)                        ![WhatsApp Image 2024-03-11 at 09 47 03_70a24ba6](https://github.com/AnnBlessy/ImplicitIntent-MAD/assets/119477835/beb7b64b-e444-40fb-b667-eaf1c6fad4f4)
+![WhatsApp Image 2024-03-11 at 09 47 03_43874b10](https://github.com/AnnBlessy/ImplicitIntent-MAD/assets/119477835/31062a8d-c01d-4d95-a795-7e42a49a0e64) __ ![WhatsApp Image 2024-03-11 at 09 47 03_70a24ba6](https://github.com/AnnBlessy/ImplicitIntent-MAD/assets/119477835/beb7b64b-e444-40fb-b667-eaf1c6fad4f4)
 
 ## RESULT
 Thus a Simple Android Application create a navigate button using Implicit Intent to display the gmail page using Android Studio is developed and executed successfully.
